@@ -1,0 +1,25 @@
+<html>
+   <body>
+      <script>
+        var a,b,sum;
+        function sum(a,b)
+ 	{
+  	
+    	  sum=a+b;
+          return sum;
+   	}
+        
+         a=prompt("Enter first num");
+         a=parseInt(a);
+         b=prompt("Enter second num");
+         b=parseInt(b);
+         sum(a,b);
+         document.write("Sum = "+sum+"<br>");
+         if(sum % 2 == 0) {
+            document.write('Number is even');
+         } else {
+            document.write('Number is odd');
+         }
+      </script>
+   </body>
+</html>
